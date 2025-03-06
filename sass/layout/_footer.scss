@@ -1,0 +1,28 @@
+
+.site-footer{
+    border-top: 1px solid $black;
+    margin-top: $footer_mt;
+}
+
+.enlace{
+    text-align: start;
+}
+
+
+.grid-footer{
+    margin-top: $footer_mt;
+    @include template-grid(3);
+    align-items: center;
+    justify-items: center;
+
+}
+
+.footer-menu{
+    a{
+        display: block;
+        text-align: start;
+        padding-bottom: $footer_pb_a
+        
+    }
+} 
+

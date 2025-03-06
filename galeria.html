@@ -3,50 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Galería</title>
-    <link rel="stylesheet" href="./css/app.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <a href="./index.html">Inicio</a>
-                <a href="./nosotros.html">Sobre Nosotros</a>
-                <a href="./galeria.html">Galería</a>
-                <a href="./contacto.html">Contacto</a>
-            </ul>
-        </nav>
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Sobre Nosotros</a>
+                  <a class="nav-link" href="./galeria.html">Galería</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                  <a class="nav-link disabled" aria-disabled="true">Paquetes y costos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-        <section>
-            <h1>Galería de Proyectos</h1>
-            <a class="figma" href="https://www.figma.com/design/HwZgqLQYxcHnN5EsFjSxA9/Proyecto-Desarrollo-Web?node-id=2-2&t=LE46oOYgnyFXCCeH-1">Diseño Figma (Click aqui)</a>
+        <h1 class="itim-regular" id="title_bod">Logros y Certificaciones</h1>
+        <ul class="galeria">
+            <li>
+                <a href="./images/1.png">
+                    <img src="./images/1.png" alt="Tableau Certificación">
+                </a>
+            </li>
 
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto eveniet cupiditate ipsam aspernatur rerum ullam neque, quasi placeat nostrum distinctio labore aperiam maxime exercitationem, ut adipisci fugiat porro libero.</p>
-                <img src="./images/galeria_1.jpg" alt="Imagen principal" width="500" height="500">
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum nam nisi, impedit tenetur dicta sapiente provident ducimus voluptas minima magnam blanditiis non, voluptates laboriosam unde beatae esse exercitationem deserunt!</p>
-                <img src="./images/galeria_2.jpg" alt="Imagen principal" width="500" height="500">
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At optio neque delectus iusto ipsam odio voluptate omnis dolores et ea possimus consequatur natus dolorum quam sed harum expedita, ex voluptatibus?</p>
-                <img src="./images/galeria_3.jpg" alt="Imagen principal" width="500" height="500">
-            </div>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis cum dolor perspiciatis repellat. Aperiam est, praesentium ut dignissimos rem debitis hic, error provident nisi consequatur itaque laudantium quam magnam.</p>
-                <img src="./images/galeria_4.jpg" alt="Imagen principal" width="500" height="500">
-            </div>
-        </section>
+           
+
+            <li>
+                <a href="./images/3.png">
+                    <img src="./images/3.png" alt="AWS Solutions Certificación">
+                </a>
+            </li>
+
+            <li>
+                <a href="./images/4.png">
+                    <img src="./images/4.png" alt="AWS Cloud Practitioner Certificación">
+                </a>
+            </li>
+
+            <li>
+                <a href="./images/5.png">
+                    <img src="./images/5.png" alt="AWS Developer Certificación">
+                </a>
+            </li>
+
+            <li>
+                <a href="./images/7.png">
+                    <img src="./images/7.png" alt="GCP Associate Certificación">
+                </a>
+            </li>
+
+            <li>
+                <a href="./images/8.png">
+                    <img src="./images/6.png" alt="GCP Leader Certificación">
+                </a>
+            </li>
+
+            <li>
+                <a href="./images/2.png">
+                    <img src="./images/2.png" alt="Deep Learning">
+                </a>
+            </li>
+        </ul>
+        
     </main>
 
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat esse aliquid veritatis, officiis repudiandae corrupti, assumenda reprehenderit quis quasi recusandae, dicta perspiciatis animi doloribus quod quidem necessitatibus. Esse, velit?</p>
+    <footer class="site-footer">
+      <div class="grid-footer contenedor">
+        <div>
+          <h3 class="itim-regular">Categorias</h3>
+          <nav class="footer-menu">
+            <p><a class="itim-regular" href="https://github.com/kevinbalderas01/proyecto_snake_python/blob/main/snake_game.py" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Ciencia de datos</a></p>
+            <p><a class="itim-regular" href="https://github.com/kevinbalderas01/frontend_React_CH_BSK/tree/main/react_project" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Front End</a></p>
+            <p><a class="itim-regular" href="https://github.com/kevinbalderas01/backend-I-Project-CH" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Back End</a></p>
+            <p><a class="itim-regular" href="https://github.com/kevinbalderas01/backend-dev-js-ch/tree/main/Sql/Project" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Databases</a></p>
+
+            
+          </nav>
+        </div>
+        
+        <div>
+          <h3 class="itim-regular">Sobre Mí</h3>
+          <nav class="footer-menu">
+            <p><a class="itim-regular" href="https://www.linkedin.com/in/kevin-balderas-s%C3%A1nchez-39b0291a8/" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Certificaciones</a></p>
+            <p><a class="itim-regular" href="https://www.linkedin.com/in/kevin-balderas-s%C3%A1nchez-39b0291a8/" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Grados</a></p>
+            <p><a class="itim-regular" href="https://www.linkedin.com/in/kevin-balderas-s%C3%A1nchez-39b0291a8/" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Experiencia</a></p>
+
+          </nav>
+        </div>
+  
+        <div>
+          <h3 class="itim-regular">Soporte</h3>
+          <nav class="footer-menu">
+            <p><a class="itim-regular"  href="./contacto.html" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Contacto</a></p>
+            <p><a class="itim-regular" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Email</a></p>
+            <p><a class="itim-regular" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" class="link-body-emphasis link-offset-1 link-underline-opacity-25 link-underline-opacity-75-hover">Telefono</a></p>
+          </nav>
+        </div>
+      </div>
+
+      
+
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

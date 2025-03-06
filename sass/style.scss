@@ -1,0 +1,17 @@
+//Tipos, colores, reset, utils
+@import './reset/tipo';
+@import './reset/colors';
+@import './reset/reset';
+@import './layout/utils';
+
+
+//Layouts
+@import './layout/carousel';
+@import './layout/body';
+@import './layout/footer';
+@import './layout/formulario';
+@import './layout/galery';
+@import './layout/categorias';
+
+//Media queries
+@import './config/mq';

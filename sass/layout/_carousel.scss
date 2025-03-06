@@ -1,0 +1,33 @@
+/*Carousel de imagenes*/
+.carousel_text{
+    color:$carousel_text;
+    text-align: end;
+}
+
+.base-carousel{
+    height: 100px;
+    width: 100px;
+    outline: $black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid $black;
+    background-image: none;
+}
+
+.carousel-control-next-icon {
+    @extend .base-carousel;
+    &:after{
+        content: '>';
+        font-size: 55px;
+        color:$red;
+    }
+}
+
+.carousel-control-prev-icon{
+    @extend .base-carousel;
+    &:after{
+        content: '<';
+        font-size: 55px;
+        color: $red;
+    }
+}

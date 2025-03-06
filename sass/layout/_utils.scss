@@ -1,0 +1,50 @@
+body {
+    background-color: $green_back
+}
+
+footer{
+    margin-bottom: $footer_mb
+}
+
+h1, nav{
+    text-align: center;
+}
+
+#title_bod{
+    font-size: $font-id;
+
+}
+
+h1,h3 {
+    color: $brown;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    font-size: $font-p-size
+}
+
+/*Fuente de Google Fonts*/
+
+.itim-regular {
+    font-family: $title-special-font, cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin template-flex($direction){
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin template-grid($columns){
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+}

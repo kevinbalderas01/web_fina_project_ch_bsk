@@ -1,0 +1,13 @@
+.form-container{
+    width: 100%;
+}
+
+.formulario{
+    max-width: 35rem;
+    margin: 0 auto;
+    legend{
+        background-color: $form_header;
+        width: 100%;
+        text-align: center;
+    }
+}

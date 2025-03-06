@@ -1,0 +1,19 @@
+/* Galeria */
+.galeria{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @include template-grid(3);
+    gap: 2rem;
+    img{
+        height: 15rem;
+        width: 15rem;
+        object-fit: cover;
+        transition-property: transform;
+        transition-duration: .3s;
+        &:hover{
+            transform: scale(1.2);
+
+        }
+    }
+}
