@@ -9,7 +9,7 @@ Este proyecto me permite darme un buen punto de partida sobre mi sitio web que h
 * Grid y Flexbox para mostrar imagénes y contenedores
 * Diseño Responsive, previamente testeado y con lo justo y necesaria para lmodificar as media queries.
 * Videos e imagenes con animaciones para mostrar mayor experiencia del usuario.
-* Código fuente y repo de Git.
+* Código fuente y Despliegue en Git-> https://kevinbalderas01.github.io/web_fina_project_ch_bsk/
 * Despliegue en Netlify -> https://my-portafolio-v1.netlify.app/
 
 Página principal del home:
