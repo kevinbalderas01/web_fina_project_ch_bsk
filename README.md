@@ -10,7 +10,7 @@ Este proyecto me permite darme un buen punto de partida sobre mi sitio web que h
 * Diseño Responsive, previamente testeado y con lo justo y necesaria para lmodificar as media queries.
 * Videos e imagenes con animaciones para mostrar mayor experiencia del usuario.
 * Código fuente y repo de Git.
-* Despliegue en Netlify.
+* Despliegue en Netlify -> https://my-portafolio-v1.netlify.app/
 
 Página principal del home:
 ![Captura 1](./screenshots/Captura%20de%20pantalla%20(1098).png)
